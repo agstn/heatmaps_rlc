@@ -159,7 +159,6 @@ lc_html(content =
            "<b>Heatmaps:<a href='https://github.com/VIS-SIG/Wonderful-Wednesdays/tree/master/data/2022/2022-01-12'>
                        Uncertainty in study planning </a></b>
             <br> 
-            <i>Click on a scenario from the first heatmap to investiage Sample Size and Power under different Hazard Ratios and Hazard Rates</i>",
-        chartId = 'title')
+            <i>Click on a scenario from the first heatmap to investiage Sample Size and Power under different Hazard Ratios and Hazard Rates</i>")
 
 
