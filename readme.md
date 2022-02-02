@@ -1,4 +1,4 @@
-[![Binder](https://mybinder.org/badge_logo.svg)]( https://mybinder.org/v2/gh/agstn/heatmaps_rlc/master?urlpath=rstudio )
+[![Binder](https://mybinder.org/badge_logo.svg)]( https://mybinder.org/v2/gh/agstn/heatmaps_rlc/HEAD?urlpath=rstudio )
 
 
 ### Uncertainty in study planning
