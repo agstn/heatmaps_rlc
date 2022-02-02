@@ -42,7 +42,7 @@ d_time <- d_all %>%
 
 
 # LAYOUT
-openPage(useViewer=FALSE, layout="table2x3" )
+openPage(useViewer=TRUE, layout="table2x3" )
 
 AT <- 24
 FT <- 6
