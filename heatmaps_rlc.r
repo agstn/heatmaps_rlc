@@ -4,11 +4,11 @@ library(RColorBrewer)
 library(rlc)
 
 # data
-d1 <- read.csv("https://raw.githubusercontent.com/agstn/heatmaps_rlc/main/data_sample.csv") %>% 
+d1 <- read.csv("https://raw.githubusercontent.com/agstn/heatmaps_rlc/main/dat/data_sample.csv") %>% 
    select(AccrualTime, FollowUpTime, HazardRatio, HazardRate = hazard_rate, Power, NTotal) %>% 
    mutate(TotalTime = AccrualTime + FollowUpTime, .after = FollowUpTime)
 
-d2 <- read.csv("https://raw.githubusercontent.com/agstn/heatmaps_rlc/main/data_power.csv") %>% 
+d2 <- read.csv("https://raw.githubusercontent.com/agstn/heatmaps_rlc/main/dat/data_power.csv") %>% 
    select(AccrualTime, FollowUpTime, HazardRatio, HazardRate = hazard_rate, Power, NTotal) %>% 
    mutate(TotalTime = AccrualTime + FollowUpTime, .after = FollowUpTime,
           Power = round(100*Power,0))
@@ -42,7 +42,7 @@ d_time <- d_all %>%
 
 
 # LAYOUT
-openPage(useViewer=FALSE, layout="table1x3" )
+openPage(useViewer=FALSE, layout="table2x3" )
 
 AT <- 24
 FT <- 6
