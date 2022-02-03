@@ -48,5 +48,4 @@ These are the steps:
 7-	The interactive chart is ready to be used, the user can also adjust each legend to their own needs (adjust the total sample, sample size and/or power to different baselines and ranges)  
 
 For this challenge, my goal was two-folded. First to explore the vast possibilities of assumptions. Second, to explore the possibility of making everything fully reproducible so that anyone can access the code and made any changes in the cloud.
-[Visualizing study planning uncertainty by interactive linked heatmaps ](https://hub.gke2.mybinder.org/user/agstn-heatmaps_rlc-so0stfvd/rstudio/p/348375e7/)
 
